@@ -13,10 +13,11 @@
  esse arquivo irá testar dois métodos, o <i><b>testCalcula</i></b> onde irá testar a função solicitada no desafio, e o método <i><b>verificaVazio</i></b> que testa 
  o retorno vazio da função solicitada, quando passado como parâmetro as listas vazias</p>
 <ul>
- <li> Abrir o diretório em alguma IDE (eclipse,netbeans);</li>
+ <li> Abrir o diretório em alguma IDE (eclipse,netbeans), como um novo projeto;</li>
+ <li> Importar a biblioteca JUnit 5 no projeto;</li>
  <li> No diretorio <b>test</b> executar a classe <b>DesafioTest;</b></li>
 </ul>
  
  
 <h4>Obs:</h4>
-<p>Para testar as funções com novos dados, criar novos objetos como variavel global <p>
+<p>Para testar as funções com novos dados, criar novos objetos como variavel global<p>
