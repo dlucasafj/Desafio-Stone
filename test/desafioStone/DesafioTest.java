@@ -77,5 +77,23 @@ class DesafioTest {
 		emailValor = desafio.calcula(compras.getListItens(), compras.getEmails());
 		
 		Assertions.assertTrue(emailValor.isEmpty());
+		
+		compras.addItens(macarrao);
+		compras.addItens(feijao);
+		compras.addItens(arroz);
+		
+		emailValor = desafio.calcula(compras.getListItens(), compras.getEmails());
+		
+		Assertions.assertTrue(emailValor.isEmpty());
+		
+		
+		compras.addEmails(email1);
+		compras.addEmails(email2);
+		
+		emailValor = desafio.calcula(compras.getListItens(), compras.getEmails());
+		
+		Assertions.assertFalse(emailValor.isEmpty());
+		
+		
 	}
 }

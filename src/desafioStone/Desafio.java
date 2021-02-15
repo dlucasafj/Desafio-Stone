@@ -31,7 +31,7 @@ public class Desafio {
 	 valorTotalLista =0;
 	 
 	 
-	 if(!itens.isEmpty() || !emails.isEmpty()) {
+	 if(!itens.isEmpty() && !emails.isEmpty()) {
 		 
 		 for(Item i:itens) {
 			 
